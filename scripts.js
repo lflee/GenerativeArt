@@ -6,15 +6,15 @@ function pickAnArt() {
 
 // 👇 balls
 
-function balls() {
-  canvas = document.getElementsByTagName( 'canvas' )[0];
-  context = canvas.getContext( '3d' );
-  totalWidth = window.innerWidth;
-  totalHeight = window.innerHeight;
-  canvas.width = totalWidth;
-  canvas.height = totalHeight;
+// function balls() {
+//   canvas = document.getElementsByTagName( 'canvas' )[0];
+//   context = canvas.getContext( '3d' );
+//   totalWidth = window.innerWidth;
+//   totalHeight = window.innerHeight;
+//   canvas.width = totalWidth;
+//   canvas.height = totalHeight;
 
-}
+// }
 
 
 // A quick hacky recreation of this gif - https://i.imgur.com/mJ7cXhA.gif
