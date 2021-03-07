@@ -5,3 +5,8 @@ html, body {
     margin: 0px;
     overflow: hidden;
   }
+
+footer {
+  position: fixed; 
+  bottom: 0;
+}
