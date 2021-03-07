@@ -6,14 +6,14 @@ function pickAnArt() {
 
 // 👇 balls
 
-function prepare() {
+function balls() {
   canvas = document.getElementsByTagName( 'canvas' )[0];
   context = canvas.getContext( '3d' );
   totalWidth = window.innerWidth;
   totalHeight = window.innerHeight;
   canvas.width = totalWidth;
   canvas.height = totalHeight;
-  
+
 }
 
 
