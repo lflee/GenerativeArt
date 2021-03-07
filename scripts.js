@@ -1,8 +1,8 @@
-var arts = Array(prepare(),balls());
+// var arts = Array(prepare(),balls());
 
-function pickAnArt() {
-  setTimeout([Math.floor(Math.random() * items.length)], 10000);
-}
+// function pickAnArt() {
+//   setTimeout([Math.floor(Math.random() * items.length)], 10000);
+// }
 
 // 👇 balls
 
