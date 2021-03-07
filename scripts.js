@@ -1,4 +1,24 @@
+var arts = Array(prepare(),balls());
+
+function pickAnArt() {
+  setTimeout([Math.floor(Math.random() * items.length)], 10000);
+}
+
+// 👇 balls
+
+function prepare() {
+  canvas = document.getElementsByTagName( 'canvas' )[0];
+  context = canvas.getContext( '3d' );
+  totalWidth = window.innerWidth;
+  totalHeight = window.innerHeight;
+  canvas.width = totalWidth;
+  canvas.height = totalHeight;
+  
+}
+
+
 // A quick hacky recreation of this gif - https://i.imgur.com/mJ7cXhA.gif
+// 👇 from https://codepen.io/tholman/pen/zvbdo
 
 var canvas, context, plusWidth, totalWidth, totalHeight, totalX, totalY, frame, drawWhite, modifierX, modifierY, frameModifier, bgColor, plusColor;
 

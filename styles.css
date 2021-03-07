@@ -6,7 +6,25 @@ html, body {
     overflow: hidden;
   }
 
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 footer {
   position: fixed; 
   bottom: 0;
+}
+
+leftFooter {   
+  text-align: left;
+}
+
+rightFooter {   
+  text-align: right;
+}
+
+artSourceQR {
+  position: absolute;
+  left: 0px;
 }
